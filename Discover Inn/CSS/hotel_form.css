@@ -1,0 +1,59 @@
+
+#search{
+    float: left;
+    font: 1em Verdana, Arial, Helvetica, sans-serif; 
+    letter-spacing: normal;
+    line-height: 100%; 
+    margin-left: 0px;
+    padding: 0;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+form fieldset {
+    border: 3px solid brown; 
+    padding: .5em;
+    margin-left: 0px;
+}
+
+form legend {
+    font: small-caps bold .9em Verdana, Arial, Helvetica, sans-serif; 
+    letter-spacing: .2em;	
+    line-height: 16px; 
+    text-align: center;  
+    color: #ff4d4d; 
+    background-color: inherit;
+}
+
+legend{
+    margin: 10px;
+    padding: 5px;
+}
+
+form label {
+    font: bold .9em Verdana, Arial, Helvetica, sans-serif; 
+    text-align:left;
+    text-transform: capitalize;
+    width: 120px;
+    padding-top: .2em;
+    position:absolute;
+    float:left;
+}
+
+form input,  form textarea, form select{
+    font: .9em Verdana, Arial, Helvetica, sans-serif; 
+    color: brown;
+    background-color: inherit; 	
+    margin-left: 180px;
+    margin-bottom: .5em;
+    margin-right: 5px;
+}
+
+form input[type="submit"], form input[type="reset"]{
+    font: bold 20px tafoma;
+    color: white;
+    background-color: #ff4d4d;	
+    width: 135px;
+    margin-left: 50px;        
+}

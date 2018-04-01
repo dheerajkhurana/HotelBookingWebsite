@@ -1,0 +1,125 @@
+#main_head {
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.left{
+    text-align: left;
+}
+
+
+
+
+
+nav ul{
+     background-color: #000000;
+    padding: 8px;
+    list-style: none;
+    font: bold 14px tahoma;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    width: auto;
+    background-color: #EEE;
+    font-family: tahoma;
+}
+
+#container{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+}
+
+nav{
+    background: black;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px; 
+}
+
+nav a:hover{
+    background: red;
+    padding: 10px;
+
+}
+
+
+nav li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+
+    }
+
+header h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+#main_foot{
+    padding: 10px;
+    background:  #ff6d6d;
+    color: black;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+article{
+    
+}
+.ti{
+    color: brown;
+}
+.lef{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+article a{
+    color: brown;
+}
+
+
+#things{
+    background: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+.le{
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+#wrap{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: tahoma;
+    
+}

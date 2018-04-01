@@ -1,0 +1,361 @@
+body{
+    width: auto;
+    background-color: #EEE;
+    font-family: tahoma;
+}
+
+#hotels{
+    float: right;
+    width: 800px;
+}
+
+
+
+/*-------------------- Discover Inn's common "banner" for all pages------------------------------- */
+
+header{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font: bold 20px tahoma;
+    border-radius: 3%;
+    background-image: linear-gradient(to top,red  , brown 30% );
+    letter-spacing: 3px;
+}
+
+#subhead{
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px; 
+    padding:0;
+}
+
+.navi li:hover{
+    background-color: red;
+    padding: 5px;
+    margin: 0px;
+}
+
+.navi{
+    background-color: #000000;
+    padding: 8px;
+    list-style: none;
+    font: bold 14px tahoma;
+    margin: 0;
+    text-align: center;
+}
+
+.navi li a{
+    padding: 50px;
+    color: white;
+}
+
+.navi li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*---------------*/
+
+#previousinfo{
+    
+    background-color: white; 
+    border: 2px solid red;
+    text-align: center;
+    letter-spacing: 2px;
+    color: brown;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+
+
+
+
+
+#hotelwrap{
+   width: 900px;
+   float: right;
+   margin-right: 40px;
+}
+
+#container{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+#main{
+    width: 530px;
+    float: right;
+    
+    
+}
+
+.hotelhead{
+    background: #ff4d4d;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+#leftwrap{
+    width:430px;
+    margin: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+
+#images{
+    float: left;
+    width: 350px;
+
+}
+
+/*
+#park{
+    float: left;
+    width: 350px;
+    height: 300px;
+    
+}
+
+
+#palace{
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+
+
+#oriental{
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+*/
+
+#corner{
+    float: right;
+    margin-left: 300px;
+}
+
+
+.same{
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    border-radius: 25px; 
+    
+}
+
+#tt{
+    text-align: center;
+    
+    
+}
+
+
+
+img {
+    width: 550px;
+    height: 300px;
+    border-radius: 30px;
+    border: 0px;
+    float: inherit;
+    margin-right: 80px;
+}
+
+#yoyo{
+  margin-left: 50px;
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    text-align: center;
+    margin-right: 60px; 
+}
+
+
+
+
+/*------------------- form -- filter-------------------------------*/
+
+article{
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: 130px;
+}
+
+article h4{
+    color: red;
+}
+
+article h3{
+    color: brown;
+}
+
+#roomtype{
+    width: 200px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+article a{
+    color: brown;
+}
+
+
+#others{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+article h4{
+    float: left;
+}
+
+#roompage{
+    float: right;
+    margin-right: 10px;
+}
+
+#heading{
+    margin-left: 50px;
+    color: #ff4d4d;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* ---------------------------Main Footer----------------------------- */
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: right;
+    clear: both;
+    padding: 15px;
+    font: bold 15px tahoma;
+}
+
+footer a{
+    color: #ff4d4d;
+}
+
+footer a:hover{
+    background-color: white;
+    padding: 5px;
+}
+
+#follow{
+    float: left;
+    height: 30px;
+    width: 220px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 0px; 
+}
+
+
+
+/*---------------------css3---------------------------------------*/
+
+
+
+#rt {
+	animation-name: divRotate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: divRotate;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+	@keyframes divRotate {
+	  from {
+	    transform: rotate(0deg);
+	    margin-left:0px;
+	  }
+	  to {
+	    transform: rotate(360deg);
+	    margin-left: 0px;
+	  }
+	}  
+	@-webkit-keyframes divRotate {
+	  from {
+	    -webkit-transform: rotate(0deg);
+	    margin-left: 0px;
+	  }
+	  to {
+	    -webkit-transform: rotate(360deg);
+	    margin-left: 0px;
+	  }
+	}
+
+
+
+div.com {
+	width:100px;
+	height:100px;
+	border:2px black solid;
+	background-color: Brown;
+        border-radius: 50%;
+        
+	}
+ 
+#css3{
+    width: 130px;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+ }
+ 
+ #css3 p{
+    padding: 12px;
+    font-size: 15px;
+    letter-spacing: 0px;
+ }
+ 
+ 
+ 
+#css3{
+    width: 130px;
+    color: white;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+ }
+ 
+ #css3 p{
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+ }
+
+ div.com {
+	width:122px;
+	height:122px;
+	border:2px brown solid;
+	background-color: red;
+        border-radius: 50%;
+        
+    }
+ 

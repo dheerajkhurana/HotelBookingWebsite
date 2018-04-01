@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        
+        <title>Park Plaza Room Type</title>
+        
+        <link href="../CSS/room.css" rel="stylesheet" type="text/css" />
+		
+    </head>
+    
+    <body>
+        <div id="container">
+        <header>
+                    <h1>Discover Inn</h1>
+                    
+                    <div id="subhead">
+                        
+                        <div id="css3">  
+                            <div class="com" id="rt">
+                                <p>Asia's No.1 Hotel booking website</p>
+                            </div>
+                        </div>
+                        
+                        <h3>24x7 Discover support</h3>
+                        <h4>Book online or call us at 12345678</h4>
+                    </div>
+                </header>
+                
+        <nav>
+            <ul class="navi">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="design.html">About us</a></li>
+                <li><a href="hotel.html">Top Hotel Deals</a></li>
+                <li><a href="room.html">Deal of the Day</a></li>
+                <li><a href="design.html">Contact us</a></li>
+            </ul>
+        </nav>
+    
+        <section>
+            <article>
+                <div id="intro">
+                    <h1 id="hotelnam"></h1>
+                    <h4 class="subheading"> 717 block A, Opposite Mysterious island, Dream peninsula, Hong Kong.</h4>
+                        <div id="gallery">
+                            <h2 > Image Gallery</h2>
+                            
+                            <img id="park" src="../IMAGES/park.jpg" alt="Recommended Hotel" title="Recommended Hotel"/>		<!--Big main photo-->
+
+                                <div class="responsive">
+                                    <div class="img">
+                                        <a target="_blank" href="../IMAGES/gallery/skyline.jpg">
+                                            <img src="../IMAGES/gallery/skyline.jpg" title="Click to enlarge me" alt="Link to enlarge" class="set" onmouseover="displaybig(this)" onmouseout="displaysmall(this)">
+                                        </a>
+                                        <div class="desc">Beautiful Skyline view of the City</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="responsive">
+                                    <div class="img">
+                                        <a target="_blank" href="../IMAGES/gallery/dining.jpg">
+                                            <img src="../IMAGES/gallery/dining.jpg" title="Click to enlarge me" alt="Link to enlarge"  class="set" onmouseover="displaybig(this)" onmouseout="displaysmall(this)">
+                                        </a>
+                                        <div class="desc">Finest place for city Diners</div>
+                                    </div>
+                                </div>
+
+                                <div class="responsive">
+                                    <div class="img">
+                                        <a target="_blank" href="../IMAGES/gallery/lobby.jpg">
+                                            <img src="../IMAGES/gallery/lobby.jpg" title="Click to enlarge me" alt="Link to enlarge" class="set" onmouseover="displaybig(this)" onmouseout="displaysmall(this)">
+                                        </a>
+                                        <div class="desc">Larger then life Lobby of hotel</div>
+                                    </div>
+                                </div>
+
+                                <div class="responsive">
+                                    <div class="img">
+                                        <a target="_blank" href="../IMAGES/gallery/pool.jpg">
+                                            <img src="../IMAGES/gallery/pool.jpg" title="Click to enlarge me" alt="Link to enlarge" class="set" onmouseover="displaybig(this)" onmouseout="displaysmall(this)">
+                                        </a>
+                                        <div class="desc">Indoor pool in the hotel Suite</div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            
+                        </div>  <! end of gallery>
+                </div> <!..end of intro box>
+            
+                <div id="filter">
+                    <!-------------------------------------------------------->
+                    
+                    <h3 class="fill">FILTER</h3>
+                    
+                    <form class="others" >
+                        <fieldset>
+                        <legend class="name">ROOM TYPE</legend>
+                        
+			<input type="radio" id="single" name="roomtype" value="Single"/>
+			<label for="single">Single</label>
+                        
+                        <br/>
+                        
+			<input type="radio" id="double"  name="roomtype" value="Double" />
+			<label for="double">Double</label>
+                        
+                        <br/>
+                        
+                        <input type="radio" id="twin"  name="roomtype" value="Twin" />
+			<label for="twin">Twin</label>
+                        
+                        <br/>
+                        
+                        <input type="radio" id="King"  name="roomtype" value="King" />
+			<label for="King">King</label>
+                        </fieldset>
+
+                    </form>
+                    
+                    <form class="others">
+                        <fieldset>
+                            
+                            <legend class="name">OTHERS</legend>
+            
+                            <input type="checkbox" id="smoking" name="extra_needs" value="smoking"/>
+                            <label for="smoking">Smoking</label>
+                            
+                            <br/>
+                            
+                            <input type="checkbox" id="nonsmoking" name="extra_needs" value="nonsmoking"/>
+                            <label for="nonsmoking">Non Smoking</label>
+                            
+                            <br/>
+                            
+                            <input type="checkbox" id="mountainview" name="extra_needs" value="mountainview"/>
+                            <label for="mountainview">Mountain View</label>
+                            
+                            <br/>
+                            
+                            <input type="checkbox" id="seaview" name="extra_needs" value="seaview"/>
+                            <label for="seaview">Sea View</label>
+                            
+                            <br/>
+                            
+                            <input type="checkbox" id="breakfast" name="extra_needs" value="breakfast"/>
+                            <label for="breakfast">Breakfast</label>
+                            
+                            <br/>
+                            
+                            <input type="checkbox" id="dinner" name="extra_needs" value="dinner"/>
+                            <label for="dinner">Dinner</label>
+                            
+                            <br/>
+                            
+                            <input type="checkbox" id="no_meal" name="extra_needs" value="no_meal"/>
+                            <label for="no_meal">No Meal</label>
+                            
+                        </fieldset>
+                    </form>
+                    
+                     <h5 class="fill">Common facilities and Services</h5>
+                    <ul class="others">
+                        <li>Indoor pool</li>
+                        <li>24-7 hour front Desk</li>
+                        <li>Fitness center</li>
+                        <li>Air conditioning</li>
+                        <li>Free-Wifi</li>
+                        <li>Front desk safe</li>
+                        <li>Restaurant and bar/lounge
+                        Timings- (9:00am - 19:00pm)</li>
+                    </ul>
+                </div>
+                
+                <div id="roomtype">
+                    
+                    
+                    <h3 id="select">Select the most suitable room for you</h3>
+                    
+                    <article class="roomtype">
+                        <h3 id="deluxe" class="room">Deluxe Single</h3>
+                        <ul>
+                            <li>Room Size: 25 sq metre</li>
+                            <li>Meals: Breakfast only</li>
+                        </ul>
+                        <p id="info"><img class="img" src="../IMAGES/single.jpg" title="Deluxe Single" alt="Deluxe Single" />
+                            Unique features designed especially for you. The renovated Deluxe Single Room offers the VIP treatment,
+                        including rain shower, Nespresso machine, bathrobe and slippers, free WIFI and minibar, air conditioning and
+                        42" TV. For up to 3 people
+                        </p>
+                        
+                        <h4 id="price">Price: HKD 1200 </h4>
+						<h3 id="numberofrooms1"></h3>
+                        
+                        <form method="get" action="confirm.html" onsubmit="return askname2confirm()">
+                            <input type="submit" id="book" name="book" value="Book Now" />
+							<input type="hidden" id="totalrooms2" name="totalrooms2" />
+							<input type="hidden" id="checkin2" name="checkin2"/>
+							<input type="hidden" id="checkout2" name="checkout2"/>
+							<input type="hidden" id="transfername" name="transfername"/>
+							<input type="hidden" id="roomtype1" name="roomtype1"/>
+							
+                        </form>
+                    
+                    </article>
+                    
+                   <article class="roomtype">
+                        <h3 class="room">Executive Double</h3>
+                        <ul>
+                            <li>Room Size: 40 sq metre</li>
+                            <li>Meals: All Meals Inclued</li>
+                        </ul>
+                        <p id="info"><img class="img" src="../IMAGES/double.jpg" title="Executive Double" alt="Executive Double" />
+                        Combine work and relaxation in complete serenity. Our renovated Superior Room combines new decor,
+                        ergonomics and high-tech facilities: rainshower, 42" TV, docking station, free WIFI, air-conditioning,
+                        tea and coffee making facilities. For up to 2 adults and 2 infants.
+                        </p>
+                        
+                        <h4 id="price">Price: HKD 1500 </h4>
+						<h3 id="numberofrooms2"></h3>
+                        
+                        <form method="get" action="confirm.html" onsubmit="return askname2confirm()">
+                            <input type="submit" id="book" name="book" value="Book Now"/>
+							<input type="hidden" id="totalrooms22" name="totalrooms22" />
+							<input type="hidden" id="checkin22" name="checkin22"/>
+							<input type="hidden" id="checkout22" name="checkout22"/>
+							<input type="hidden" id="transfername2" name="transfername2"/>
+							<input type="hidden" id="roomtype2" name="roomtype2"/>
+							
+                        </form>
+                    
+                    </article>
+                    
+                    <article class="roomtype">
+                        <h3 class="room">Executive Twin suite</h3>
+                        <ul>
+                            <li>Room Size: 80 sq metre</li>
+                            <li>Meals: All Meals included (with complementary extra free drinks)</li>
+                        </ul>
+                        <p id="info"><img id="special" class="img" src="../IMAGES/suite.jpg" title="Executive Twin suite" alt="Executive Twin suite" />
+                            Spacious and stylish, the Suite has a bedroom, living area and bathroom. Welcome and services that are
+                        second to none: bathrobes/slippers, Nespresso and Special tea, 42" TV, docking station, free WIFI and minibar,
+                        air-conditioning. For up to 2 adults.
+                        </p>
+                        
+                        <h4 id="price">Price: HKD 2100 </h4>
+						<h3 id="numberofrooms3"></h3>
+                        
+                        <form method="get" action="confirm.html" onsubmit="return askname2confirm()">
+                            <input type="submit" id="book" name="book" value="Book Now" />
+							<input type="hidden" id="totalrooms23" name="totalrooms23" />
+							<input type="hidden" id="checkin23" name="checkin23"/>
+							<input type="hidden" id="checkout23" name="checkout23"/>
+							<input type="hidden" id="transfername3" name="transfername3"/>
+							<input type="hidden" id="roomtype3" name="roomtype3"/>
+                        </form>
+                    
+                    </article>
+                </div>    
+            </article>
+        </section>
+		
+		<!--<form id="formname" method="get" action="room.html">
+			<input type="hidden" name="storingname" id="storingname">
+			
+		</form>
+    -->
+
+        
+        <footer id="main_footer">
+            <img id="follow" src="../IMAGES/follow.jpg" alt="Follow us on Social networking sites" title="Follow us" />  Copyright &copy; 2016 <a href="design.html">Discover Inn.</a> All rights reserved.
+        </footer>
+        </div>
+		<script src="../JAVASCRIPT/room.js" type="text/javascript"></script>
+		<script src="../JAVASCRIPT/hotels.js" type="text/javascript"></script>  
+		
+		
+    </body>
+</html>

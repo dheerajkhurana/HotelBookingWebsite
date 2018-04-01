@@ -1,0 +1,96 @@
+
+form{
+    float: left;
+    font: 1em Verdana, Arial, Helvetica, sans-serif; 
+    letter-spacing: normal;
+    line-height: 100%; 
+    margin-left: 80px;
+    padding: 0;
+}
+
+
+
+form fieldset {
+    border: 3px solid brown; 
+    margin-right: 0px;
+    padding: .5em;        
+}
+
+#border{
+    margin-bottom: 20px;
+}
+
+td:hover{
+    background-color: red;
+    color: white;
+}
+
+.blankdate:hover{
+    background-color: white;
+    color: black;
+}
+
+form legend {
+    font: small-caps bold .9em Verdana, Arial, Helvetica, sans-serif; 
+    letter-spacing: .2em;	
+    line-height: 16px; 
+    text-align: left;  
+    color: #ff4d4d; 
+    background-color: inherit;
+    font-size:  17px;
+}
+
+#calender1{
+    position: absolute;
+    left: 162px;
+}
+
+#calender2{
+    position: absolute;
+    left: 520px;
+}
+
+#roomlabel{
+    float: left;
+}
+
+legend{
+    margin: 10px;
+    padding: 5px;
+}
+
+form label {
+    font: bold .9em Verdana, Arial, Helvetica, sans-serif; 
+    text-align:left;
+    text-transform: capitalize;
+    width: 120px;
+    padding-top: .2em;
+    position:absolute;
+    float:left;
+}
+
+#childrenlabel{
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+children{
+    margin-left: 100px;
+}
+
+form input,  form textarea, form select{
+    font: .9em Verdana, Arial, Helvetica, sans-serif; 
+    color: brown;
+    background-color: inherit; 	
+    margin-left: 180px;
+    margin-bottom: .5em;
+    margin-right: 5px;
+}
+
+form input[type="submit"], form input[type="reset"], form input[type="button"] {
+    font: bold 20px tafoma;
+    color: white;
+    background-color: #ff4d4d;	
+    width: 135px;
+    margin-left: 50px;        
+}

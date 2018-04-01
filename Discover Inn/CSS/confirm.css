@@ -1,0 +1,256 @@
+body{
+    width: auto;
+    background-color: #EEE;
+    font-family: tahoma;
+}
+
+/*-------------------- Discover Inn's common "banner" for all pages------------------------------- */
+
+header{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font: bold 20px tahoma;
+    border-radius: 3%;
+    background-image: linear-gradient(to top,red  , brown 30% );
+    letter-spacing: 3px;
+}
+
+#subhead{
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px; 
+    padding:0;
+}
+
+.navi li:hover{
+    background-color: red;
+    padding: 5px;
+    margin: 0px;
+}
+
+.navi{
+    background-color: #000000;
+    padding: 8px;
+    list-style: none;
+    font: bold 14px tahoma;
+    margin: 0;
+    text-align: center;
+}
+
+.navi li a{
+    padding: 50px;
+    color: white;
+}
+
+.navi li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*------------------------------------------------------------------------*/
+
+#info{
+    text-align: left;
+    margin-left: 30px;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+
+
+#container{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+#heading{
+    color: #ff6d6d;
+    margin-left: 120px;
+}
+
+#hotelname{
+    letter-spacing: 4px;
+    font: bold 20px tahoma;
+    color: #000000;
+}
+
+#dates  {
+    text-align: left;
+    color: #ff6d6d;
+    margin-left: 20px;
+    font: 18px bold tahoma;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+
+
+#boxwrap{
+    background-color: white;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ff6d6d 3px solid;
+    margin-bottom: 30px;
+
+}
+
+#checkin{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+
+#checkout{
+    float: right;
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: 50px; 
+    padding: 10px;
+}
+
+#detail{
+    background: black;
+    color: #ff6d6d;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+#agree{
+    color: #ff6d6d;
+}
+
+
+#price{
+    color: #ff6d6d;
+    clear: both;
+}
+
+#confirm{
+    margin-bottom: 30px;
+    background: #ff4d4d;
+    color: white;
+    height: 22px;
+}
+
+#logo1{
+    float: left;
+    padding: 20px;
+    color: brown;
+    
+    
+}
+
+#logo2{
+    float: right;
+    padding: 20px;
+    color: orange;
+}
+
+.go{
+    font-size: 20px;
+    
+}
+
+#name{
+    font-size: 14px;
+    color: brown;
+}
+
+
+
+
+/* ---------------------------Main Footer----------------------------- */
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: right;
+    clear: both;
+    padding: 15px;
+    font: bold 15px tahoma;
+}
+
+footer a{
+    color: #ff4d4d;
+}
+
+footer a:hover{
+    background-color: white;
+    padding: 5px;
+}
+
+#follow{
+    float: left;
+    height: 30px;
+    width: 220px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 0px; 
+}
+/*---------------------------------------------------------------*/
+
+#rt {
+	animation-name: divRotate;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: divRotate;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+        text-align: center;
+}
+	@keyframes divRotate {
+	  from {
+	    transform: rotate(0deg);
+	    margin-left: 200px;
+	  }
+	  to {
+	    transform: rotate(360deg);
+	    margin-left: 400px;
+	  }
+	}  
+	@-webkit-keyframes divRotate {
+	  from {
+	    -webkit-transform: rotate(0deg);
+	    margin-left: 100px;
+	  }
+	  to {
+	    -webkit-transform: rotate(360deg);
+	    margin-left: 400px;
+	  }
+	}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+}
+
+div.com {
+	width:100px;
+	height:100px;
+	border:2px red solid;
+	background-color:#FF8000;
+
+        margin-bottom: 30px;
+        margin-top: 30px;
+	}
+
+
+
